@@ -1,0 +1,17 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int X;
+	    cin>>X;
+	    if(X>24)
+	    std::cout << "YES" << std::endl;
+	    else
+	    std::cout << "NO" << std::endl;
+	}
+
+}
