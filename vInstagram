@@ -1,0 +1,17 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int following,followers;
+	    cin>>following>>followers;
+	    if(following>followers*10)
+	    std::cout << "yes" << std::endl;
+	    else
+	    std::cout << "no" << std::endl;
+	}
+
+}
